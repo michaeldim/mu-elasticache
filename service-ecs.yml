@@ -33,7 +33,7 @@ Resources:
   ElasticacheCluster:
     Type: "AWS::ElastiCache::CacheCluster"
     Properties:
-      CacheNodeType: "cache.m3.medium"
+      CacheNodeType: "cache.t2.micro"
       Engine: "redis"
       NumCacheNodes:
         Ref: NumCacheNodes
